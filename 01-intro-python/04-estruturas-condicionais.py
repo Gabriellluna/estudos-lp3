@@ -90,13 +90,44 @@ if dia in dias:
     print(dias[dia])
 
 
+#operador ternário
+idade = 20
+#maior ou menor
+status = ''
+
+#Por desvios condicionais 
+if idade >= 18:
+    status = 'maior'
+else:
+    status = 'menor'
+
+#Ternário
+status = 'maior' if idade >= 18 else 'menor'
 
 
+#match (switch case melhorado)
+dia = 3
+match dia:
+    case 1:
+        print('Domingo')
+    case 2:
+        print('Segunda')
+    case 3:
+        print('Terça')
+    case _: #default
+        print('Dia inválido')
+        
+match dia:
+    case 1 | 7:
+        print("Fim de semana")
+    case 2|3|4|5|6:
+        print ("Dia util")
+    case _: #default
+        print('Dia inválido')
 
 
-
-
-
+        
+        
 
 
 
