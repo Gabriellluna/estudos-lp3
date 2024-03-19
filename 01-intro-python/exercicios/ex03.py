@@ -9,7 +9,7 @@
 valor = input("Digite o valor de sua compra: ")
 valor = float(valor)
 
-if valor > 0 and valor <10:
+if valor >= 0 and valor < 10:
     print("Você não tem desconto, valor final: ", valor)
 elif valor < 100:
     valorDesconto = valor - (valor * 0.05)
