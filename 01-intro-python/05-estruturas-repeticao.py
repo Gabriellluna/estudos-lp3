@@ -77,3 +77,7 @@ print("impares: ", impares)
 palavras = ["Gabriel", "Luna", "MaiA"]
 palavra2 = [palavra.upper() for palavra in palavras]
 print(palavra2)
+
+
+
+
