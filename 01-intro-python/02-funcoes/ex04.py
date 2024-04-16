@@ -7,7 +7,7 @@ candidatos = {
 
 def votacao(candidatos):
     i = 1
-    while i < 6:
+    while i < 31:
         print("Candidatos: Gabriel(22), Marcos(13), Bobley(70)\n")
         voto = int(input("Insira o número do candidato: "))
         match voto:
@@ -37,7 +37,8 @@ def eleito (candidatos):
     for chave in candidatos.keys():
         maior.append(candidatos[chave][1])
         maiorzao = max(maior)
-    if maiorzao is maior[0] and maiorzao is maior[1] or maiorzao is maior[1] and maiorzao is maior[2] or maiorzao is maior[0] and maiorzao is maior[2]:
+    if maiorzao is maior[0] and maiorzao is maior[1] or maiorzao is maior[1] and maiorzao is maior[2] or maiorzao is maior[0] and maiorzao is maior[2
+                                                                                                                                                    ]:
         print("EMPATE")
            
     else:
