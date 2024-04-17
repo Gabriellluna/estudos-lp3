@@ -5,7 +5,7 @@ vogais = 0
 consoantes = 0
 
 def contador(frase):
-    vogal = ('a', 'e', 'i', 'o', 'u')
+    vogal = ('a', 'e', 'i', 'o', 'u', 'á', 'é', 'í', 'ó', 'ú', 'â', 'ê', 'î', 'ô', 'û', 'à', 'è', 'ì', 'ò', 'ù')
     consoante = ('b', 'c', 'd', 'f', 'g', 'h', 'j', 'k', 'l', 'm', 'n', 'p', 'q', 'r', 's', 't', 'v', 'w', 'x', 'y', 'z')
     vogais = 0
     consoantes = 0

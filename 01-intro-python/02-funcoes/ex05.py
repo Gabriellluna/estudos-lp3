@@ -15,8 +15,6 @@ def inverte(frase):
     for palavra in invertido:
         if palavra == " ":
             invertido.remove(palavra) 
-    print(f"Original: {original}")
-    print(f"Invertido: {invertido}")
     verificacao(original, invertido)
   
             
